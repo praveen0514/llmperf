@@ -1,0 +1,75 @@
+{
+    "version": "2023-08-31",
+    "name": "Llama-2-7b-uhekx_100_150_3k_100_summary",
+    "model": "Llama-2-7b-uhekx",
+    "mean_input_tokens": 100,
+    "stddev_input_tokens": 2,
+    "mean_output_tokens": 150,
+    "stddev_output_tokens": 2,
+    "num_concurrent_requests": 100,
+Key: inter_token_latency_s
+    p25 = 0.013183441628975324
+    p50 = 0.014425868887140241
+    p75 = 0.015470690837319364
+    p90 = 0.03254743937501195
+    p95 = 0.0641746829666469
+    p99 = 0.22499453400345662
+    mean = 0.02192684050737897
+    min = 0.012069795220821862
+    max = 0.4450922723332648
+    stddev = 0.031022908844281504
+Key: end_to_end_latency_s
+    p25 = 1.8515507724996496
+    p50 = 2.0227400270000544
+    p75 = 2.22640949200013
+    p90 = 2.3418889748005314
+    p95 = 2.416376924699807
+    p99 = 2.544477704579813
+    mean = 1.8234036376192173
+    min = 0.09909172400057287
+    max = 6.895043944000463
+    stddev = 0.6571946553247103
+Key: request_output_throughput_token_per_s
+    p25 = 64.58526471134809
+    p50 = 69.28215565168671
+    p75 = 75.71993190555786
+    p90 = 78.81799201230858
+    p95 = 80.59854505696718
+    p99 = 82.07993105077715
+    mean = 65.39953211514158
+    min = 2.2465782725779406
+    max = 82.5863900241982
+    stddev = 16.981462700971175
+Key: number_input_tokens
+    p25 = 98.0
+    p50 = 100.0
+    p75 = 101.0
+    p90 = 102.0
+    p95 = 103.0
+    p99 = 104.0
+    mean = 99.5933014354067
+    min = 92
+    max = 106
+    stddev = 2.002508146498004
+Key: number_output_tokens
+    p25 = 147.0
+    p50 = 151.0
+    p75 = 152.0
+    p90 = 154.0
+    p95 = 155.0
+    p99 = 156.0
+    mean = 126.97368421052632
+    min = 2
+    max = 158
+    stddev = 49.71544983801208
+Number Of Errored Requests: 492
+Error Code Frequency
+{429.0: 463, 424.0: 22, 500.0: 7}
+output tokens 318450
+(end_time - start_time) 471.3807332840006
+Overall Output Throughput: 675.5685532190348
+Number Of Completed Requests: 2508
+Completed Requests Per Minute: 319.23239405997913
+
+
+}
