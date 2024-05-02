@@ -1,3 +1,5 @@
+export OPENAI_API_KEY="" export OPENAI_API_BASE=""
+
 python token_benchmark_ray.py \
 --model "llama-3-70b-instruct" \
 --mean-input-tokens 400 \
